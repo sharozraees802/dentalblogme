@@ -65,7 +65,6 @@ const handle = app.getRequestHandler();
 //   });
 app.prepare().then(() => {
   mongoose
-
     .connect(process.env.DATABASE_CLOUD, {
       useNewUrlParser: true,
       useCreateIndex: true,

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { server } from "../config/index";
+import server from "../config/index";
 
 const AddProduct = () => {
   const [year, SetYear] = useState("");
