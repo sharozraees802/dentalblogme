@@ -6,6 +6,7 @@ if (dev == "development") {
   module.exports = server;
 } else {
   // const server = "https://dental04.vercel.app.vercel.app";
+
   const server = "http://localhost:8000";
   module.exports = server;
 }
